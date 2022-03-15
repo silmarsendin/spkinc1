@@ -1,6 +1,6 @@
 from asyncore import write
 import streamlit as st
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 
 
 from PIL import Image
@@ -8,15 +8,17 @@ image = Image.open('spkinc1.png')
 st.image(image)
 st.write('Aplicativo para auxiliar a identificar os parâmetros de cálculo do sistema de chuveiros automáticos em riscos gerais')
 st.write('Este aplicativo não atende os riscos como depósitos, líquidos igníferos e demais riscos especiais')
-st.subheader('Escolha o tipo de bico.')
-select = option_menu(
-    menu_title=None,
-    options=["Spray Padrão", "Spray Est.","CCAE", "ESFR"],
-    icons=["caret-down","caret-down-square","caret-down-fill","caret-down-square-fill"],
-    menu_icon="cast",
-    default_index=0,
-    orientation="horizontal",
-)
+#st.subheader('Escolha o tipo de bico.')
+#select = option_menu(
+    #menu_title=None,
+    #options=["Spray Padrão", "Spray Est.","CCAE", "ESFR"],
+    #icons=["caret-down","caret-down-square","caret-down-fill","caret-down-square-fill"],
+    #menu_icon="cast",
+    #default_index=0,
+    #orientation="horizontal",
+#)
+select = st.sidebar.selectbox('Escolha o tipo de Bico',["Spray Padrão", "Spray Est.","CCAE", "ESFR"])
+
 if select == "Spray Padrão":
 
     ocupacao = st.selectbox('Qual a ocupação:',['Escolha uma das ocupações da lista','aplicação de líquidos inflamáveis por spray pintura por flowcoating',
