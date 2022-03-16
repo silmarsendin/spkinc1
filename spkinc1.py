@@ -896,10 +896,10 @@ if select == "Spray Padrão":
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
                 st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
-                reserva = (vazaototalr + 950) * 60
+                reserva = (vazaototalr + 380) * 30
                 reservar = round(reserva,2)
-                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
-                st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
+                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 380 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
+                st.write('A reserva deve ser suficiente para suprir o sistema por 30 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
             elif fatork == 'Fator K 115':
                 pressaobico = (vazaobico / 115) * (vazaobico / 115)
                 if pressaobico < 0.5:
@@ -913,10 +913,10 @@ if select == "Spray Padrão":
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
                 st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
-                reserva = (vazaototalr + 950) * 60
+                reserva = (vazaototalr + 380) * 30
                 reservar = round(reserva,2)
-                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
-                st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
+                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 380 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
+                st.write('A reserva deve ser suficiente para suprir o sistema por 30 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
             elif fatork == 'Fator K 160':
                 pressaobico = (vazaobico / 160) * (vazaobico / 160)
                 if pressaobico < 0.5:
@@ -930,10 +930,10 @@ if select == "Spray Padrão":
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
                 st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
-                reserva = (vazaototalr + 950) * 60
+                reserva = (vazaototalr + 380) * 30
                 reservar = round(reserva,2)
-                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
-                st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
+                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 380 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
+                st.write('A reserva deve ser suficiente para suprir o sistema por 30 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
         elif alturateto == '> 6,1 m e <= 9,00 m':
             fatork = st.radio('Escolha um dos fatores K abaixo', 
             options=['Fator K 115','Fator K 160','Fator K 200'])
@@ -949,10 +949,10 @@ if select == "Spray Padrão":
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
                 st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
-                reserva = (vazaototalr + 950) * 60
+                reserva = (vazaototalr + 380) * 30
                 reservar = round(reserva,2)
-                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
-                st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
+                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 380 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
+                st.write('A reserva deve ser suficiente para suprir o sistema por 30 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
             if fatork == 'Fator K 160':
                 pressaobico = (vazaobico / 160) * (vazaobico / 160)
                 if pressaobico < 0.5:
@@ -965,10 +965,10 @@ if select == "Spray Padrão":
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
                 st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
-                reserva = (vazaototalr + 950) * 60
+                reserva = (vazaototalr + 380) * 30
                 reservar = round(reserva,2)
-                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
-                st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
+                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 380 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
+                st.write('A reserva deve ser suficiente para suprir o sistema por 30 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
             elif fatork == 'Fator K 200':
                 pressaobico = (vazaobico / 200) * (vazaobico / 200)
                 if pressaobico < 0.5:
@@ -995,10 +995,10 @@ if select == "Spray Padrão":
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
                 st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
-                reserva = (vazaototalr + 950) * 60
+                reserva = (vazaototalr + 380) * 30
                 reservar = round(reserva,2)
-                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
-                st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
+                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 380 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
+                st.write('A reserva deve ser suficiente para suprir o sistema por 30 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
            
             if fatork == 'Fator K 160':
                 pressaobico = (vazaobico / 160) * (vazaobico / 160)
@@ -1012,10 +1012,10 @@ if select == "Spray Padrão":
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
                 st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
-                reserva = (vazaototalr + 950) * 60
+                reserva = (vazaototalr + 380) * 30
                 reservar = round(reserva,2)
-                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
-                st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
+                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 380 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
+                st.write('A reserva deve ser suficiente para suprir o sistema por 30 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
             elif fatork == 'Fator K 200':
                 pressaobico = (vazaobico / 200) * (vazaobico / 200)
                 if pressaobico < 0.5:
@@ -1028,10 +1028,10 @@ if select == "Spray Padrão":
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
                 st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
-                reserva = (vazaototalr + 950) * 60
+                reserva = (vazaototalr + 380) * 30
                 reservar = round(reserva,2)
-                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
-                st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
+                st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 380 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
+                st.write('A reserva deve ser suficiente para suprir o sistema por 30 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
        
 
 elif select == "Spray Est.":
