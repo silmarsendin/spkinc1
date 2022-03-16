@@ -92,7 +92,7 @@ if select == "Spray Padrão":
         numerobicos = round(numerobico)
         st.write('A vazão mínima no bico mais desfavorável é de ', vazaobicor ,'lpm.')
         st.write('Considerando que cada bico cobre uma área de ', areabicor, 'm2, teremos ', numerobicos, 'bicos a serem calculados.')
-        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos consulte a NBR 10.897/20. ')
+        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos mude o tipo de bico no menu lateral.')
         alturateto = st.radio(
         'Escolha a faixa de altura do telhado',
         options=['Até 6,1 m','> 6,1 m e <= 9,00 m', '> 9,00 m e <= 18,00 m'])
@@ -271,7 +271,7 @@ if select == "Spray Padrão":
         numerobicos = round(numerobico)
         st.write('A vazão mínima no bico mais desfavorável é de ', vazaobicor ,'lpm.')
         st.write('Considerando que cada bico cobre uma área de ', areabicor, 'm2, teremos ', numerobicos, 'bicos a serem calculados.')
-        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos consulte a NBR 10.897/20. ')
+        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos mude o tipo de bico no menu lateral.')
         alturateto = st.radio(
         'Escolha a faixa de altura do telhado',
         options=['Até 6,1 m','> 6,1 m e <= 9,00 m', '> 9,00 m e <= 18,00 m'])
@@ -443,7 +443,7 @@ if select == "Spray Padrão":
         numerobicos = round(numerobico)
         st.write('A vazão mínima no bico mais desfavorável é de ', vazaobicor ,'lpm.')
         st.write('Considerando que cada bico cobre uma área de ', areabicor, 'm2, teremos ', numerobicos, 'bicos a serem calculados.')
-        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos consulte a NBR 10.897/20. ')
+        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos mude o tipo de bico no menu lateral.')
         alturateto = st.radio(
         'Escolha a faixa de altura do telhado',
         options=['Até 6,1 m','> 6,1 m e <= 9,00 m', '> 9,00 m e <= 18,00 m'])
@@ -479,7 +479,7 @@ if select == "Spray Padrão":
                 vazaototal = vazaobicor * numerobico
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
-                st.write('A área máxima de cada VGA deverá ser de 3.700 m2')
+                st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
                 reserva = (vazaototalr + 950) * 60
                 reservar = round(reserva,2)
                 st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
@@ -655,7 +655,7 @@ if select == "Spray Padrão":
         numerobicos = round(numerobico)
         st.write('A vazão mínima no bico mais desfavorável é de ', vazaobicor ,'lpm.')
         st.write('Considerando que cada bico cobre uma área de ', areabicor, 'm2, teremos ', numerobicos, 'bicos a serem calculados.')
-        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos consulte a NBR 10.897/20. ')
+        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos mude o tipo de bico no menu lateral.')
         alturateto = st.radio(
         'Escolha a faixa de altura do telhado',
         options=['Até 6,1 m','> 6,1 m e <= 9,00 m', '> 9,00 m e <= 18,00 m'])
@@ -691,7 +691,7 @@ if select == "Spray Padrão":
                 vazaototal = vazaobicor * numerobico
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
-                st.write('A área máxima de cada VGA deverá ser de 3.700 m2')
+                st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
                 reserva = (vazaototalr + 950) * 60
                 reservar = round(reserva,2)
                 st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
@@ -876,7 +876,7 @@ if select == "Spray Padrão":
         numerobicos = round(numerobico)
         st.write('A vazão mínima no bico mais desfavorável é de ', vazaobicor ,'lpm.')
         st.write('Considerando que cada bico cobre uma área de ', areabicor, 'm2, teremos ', numerobicos, 'bicos a serem calculados.')
-        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos consulte a NBR 10.897/20. ')
+        st.caption('Estas informações são válidas para bicos tipo spray de cobertura padrão, para os demais bicos mude o tipo de bico no menu lateral.')
         alturateto = st.radio(
         'Escolha a faixa de altura do telhado',
         options=['Até 6,1 m','> 6,1 m e <= 9,00 m', '> 9,00 m e <= 18,00 m'])
@@ -912,7 +912,7 @@ if select == "Spray Padrão":
                 vazaototal = vazaobicor * numerobico
                 vazaototalr = round(vazaototal,2)
                 st.write('A vazão total do sistema será de no mínimo: ', vazaototalr, 'lpm, porém após o equilíbrio hidráulico esta vazão irá aumentar.')
-                st.write('A área máxima de cada VGA deverá ser de 3.700 m2')
+                st.write('A área máxima de cada VGA deverá ser de 4.800 m2')
                 reserva = (vazaototalr + 950) * 60
                 reservar = round(reserva,2)
                 st.write('A NBR 10.897/20 pede uma vazão adicional de hidrantes de 950 lpm, algumas Instruções Técnicas Estaduais pedem outras vazões.')
