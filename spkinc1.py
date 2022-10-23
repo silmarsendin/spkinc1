@@ -30,7 +30,7 @@ if select == "Spray Padrão":
 'fundições','gráficas','gráficas [que utilizem tintas com ponto de fulgor menor que 100°F (38 °C)]','hangares','hospitais com ambulatórios','cirurgia e centros de saúde','hotéis','igrejas',
 'indústria metalúrgica','indústrias têxteis','instalações para lavagem a seco','lavanderias','limpeza com solventes','lojas',
 'manufatura de casas pré-fabricadas ou componentes pré-fabricados para construção (quando a estrutura final estiver presente e tiver interiores combustíveis)','moinhos de grãos','museus',
-'oficinas mecânicas','padarias','palcos','píeres e embarcadouros','pintura e envernizamento por imersão','prédios da administração pública','prédios de escritórios incluindo processamento de dados',
+'oficinas mecânicas','padarias','palcos','píeres e embarcadouros','pintura e envernizamento por imersão','prédios da administração pública','prédios de escritórios, incluindo processamento de dados',
 'áreas de refeição em restaurantes, exceto áreas de serviço','teatros e auditórios exceto palcos e proscênios','processamento de madeira montagem de produtos de madeira','processamento de papel',
 'processamento de plásticos','processamento e fabricação de produtos lácteos','processos da indústria têxtil: escolha da matéria-prima, abertura de fardos, elaboração de misturas, batedores, cardagem etc.',
 'recuperação, formulação, secagem, moagem e vulcanização de borracha','saturação com asfalto','serrarias','tratamento térmico em tanques de óleo abertos'])
