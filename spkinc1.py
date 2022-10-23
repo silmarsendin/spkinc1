@@ -76,7 +76,7 @@ if select == "Spray Padrão":
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 3.70 m')
         if entrebicos < 1.8:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser menor que 1.80 m')
-        entreramais = st.number_input('Insira a distância entre os ramis (m):',value = 1.80)
+        entreramais = st.number_input('Insira a distância entre os ramais (m):',value = 1.80)
         if entreramais > 3.70:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 3.70 m')
         if entreramais < 1.80:
@@ -251,7 +251,7 @@ if select == "Spray Padrão":
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 4.60 m')
         if entrebicos < 1.8:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser menor que 1.80 m')
-        entreramais = st.number_input('Insira a distância entre os ramis (m):',value = 1.80)
+        entreramais = st.number_input('Insira a distância entre os ramais (m):',value = 1.80)
         if entreramais > 3.70 and densidade >= 10.2:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 3.70 m')
         elif entreramais > 4.6 and densidade < 10.2:
@@ -427,7 +427,7 @@ if select == "Spray Padrão":
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 4.60 m')
         if entrebicos < 1.8:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser menor que 1.80 m')
-        entreramais = st.number_input('Insira a distância entre os ramis (m):',value = 1.80)
+        entreramais = st.number_input('Insira a distância entre os ramais (m):',value = 1.80)
         if entreramais > 4.60:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 4.60 m')
         if entreramais < 1.80:
@@ -639,7 +639,7 @@ if select == "Spray Padrão":
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 4.60 m')
         if entrebicos < 1.8:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser menor que 1.80 m')
-        entreramais = st.number_input('Insira a distância entre os ramis (m):',value = 1.80)
+        entreramais = st.number_input('Insira a distância entre os ramais (m):',value = 1.80)
         if entreramais > 4.60:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 4.60 m')
         if entreramais < 1.80:
@@ -852,7 +852,7 @@ if select == "Spray Padrão":
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 4.60 m')
         if entrebicos < 1.8:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser menor que 1.80 m')
-        entreramais = st.number_input('Insira a distância entre os ramis (m):',value = 1.80)
+        entreramais = st.number_input('Insira a distância entre os ramais (m):',value = 1.80)
         if entreramais > 4.60:
             st.subheader('Por favor entre com outro valor pois esta distância não pode ser maior que 4.60 m')
         if entreramais < 1.80:
