@@ -209,7 +209,7 @@ if select == "Spray Padrão":
                 st.write('A reserva deve ser suficiente para suprir o sistema por 90 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
 
     #Risco Extaordinário - Grupo 1
-    elif ocupacao == 'áreas de uso de fluidos hidráulicos combustíveis' or ocupacao == 'estofamento de móveis com espumas plásticas' or ocupacao == 'extrusão de metais' or ocupacao == 'fabricação de compensados e aglomerados' or ocupacao == 'fundições' or ocupacao == 'gráficas [que utilizem tintas com ponto de fulgor menor que 100°F (38 °C)]' or ocupacao == 'hangares' or ocupacao == 'processos da indústria têxtil: escolha da matéria-prima, abertura de fardos, elaboração de misturas, batedores, cardagem etc.' or ocupacao == 'serrarias':
+    elif ocupacao == 'áreas de uso de fluidos hidráulicos combustíveis' or ocupacao == 'estofamento de móveis com espumas plásticas' or ocupacao == 'extrusão de metais' or ocupacao == 'fabricação de compensados e aglomerados' or ocupacao == 'fundições' or ocupacao == 'gráficas [que utilizem tintas com ponto de fulgor menor que 100°F (38 °C)]' or ocupacao == 'hangares' or ocupacao == 'processos da indústria têxtil: escolha da matéria-prima, abertura de fardos, elaboração de misturas, batedores, cardagem etc.' or ocupacao == 'serrarias' or ocupacao == 'recuperação, formulação, secagem, moagem e vulcanização de borracha':
         st.write('Risco extraordinário – Grupo 1 de acordo com a Tabela A.1 da NBR 10.897/20.')
         areaop = st.select_slider(
         'Defina a área de operações:',
@@ -813,7 +813,7 @@ if select == "Spray Padrão":
                 st.write('A reserva deve ser suficiente para suprir o sistema por 60 minutos, portanto a reserva para o sistema de chuveiros automáticos e hidrantes deve ser de no mínimo: ',reservar, 'litros, porém o volume da reserva vai aumentar após o cálculo hidráulico.')
 
     #Risco Leve
-    if ocupacao == 'asilos e casas de repouso' or ocupacao == 'clubes' or  ocupacao == 'bibliotecas e salas de leituras, exceto salas com prateleiras altas' or ocupacao == 'edifícios residenciais e similares' or ocupacao == 'escolas públicas e privadas (1, 2 e 3 graus)' or ocupacao == 'hospitais com ambulatórios, cirurgia e centros de saúde' or ocupacao == 'hotéis' or ocupacao == 'igrejas' or ocupacao == 'museus' or ocupacao == 'prédios da administração pública' or ocupacao == 'prédios de escritórios, incluindo processamento de dados áreas de refeição em restaurantes, exceto áreas de serviço teatros e auditórios, exceto palcos e proscênios':
+    if ocupacao == 'asilos e casas de repouso' or ocupacao == 'clubes' or  ocupacao == 'bibliotecas e salas de leituras, exceto salas com prateleiras altas' or ocupacao == 'edifícios residenciais e similares' or ocupacao == 'escolas públicas e privadas (1, 2 e 3 graus)' or ocupacao == 'hospitais com ambulatórios' or ocupacao == 'cirurgia e centros de saúde' or ocupacao == 'hotéis' or ocupacao == 'igrejas' or ocupacao == 'museus' or ocupacao == 'prédios da administração pública' or ocupacao == 'prédios de escritórios, incluindo processamento de dados' or ocupacao == 'áreas de refeição em restaurantes, exceto áreas de serviço' or ocupacao == 'teatros e auditórios, exceto palcos e proscênios':
         st.write('Risco Leve de acordo com a Tabela A.1 da NBR 10.897/20.')
         areaop = st.select_slider(
         'Defina a área de operações:',
